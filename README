@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1706
+
+Description:
+This script provides a graphical browsers of the user marks for the local
+file [a-z]
+
+Help:
+To open the browser, use the :MarksBrowser command
+The select the a mark to jump to, use <CR> or <2-LeftMouse>
+To delete a mark, press d
+
+To have the browser window not close itself after you jump to a mark, set the
+marksCloseWhenSelected in your ~/.vimrc file
+	Example: let marksCloseWhenSelected = 0
+
